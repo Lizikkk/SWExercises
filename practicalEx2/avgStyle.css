@@ -1,0 +1,39 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 350px;  
+    width: 550px;
+    flex-direction: column;
+    gap: 20px;
+    border: 5px solid rgb(81, 0, 255);
+}
+
+input{
+    font-size: larger;
+    width:350px;
+    
+    
+}
+
+.calculateBtn{
+    font-size: large;
+    border-radius: 10px;
+}
+
+.calculateBtn:hover{
+    background-color: rgb(131, 223, 108);
+}
