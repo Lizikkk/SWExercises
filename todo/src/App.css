@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tasks {
+  max-width: 700px;
+  margin: 25px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  background-color: #d5d5d58d;
+  color: rgba(2, 2, 2, 0.847);
+  
+}
+
+.CompletedContainer, .TodoContainer{
+  width: 320px;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 8px;
+  flex-direction: row;
+  gap: 200px;
+  text-align: justify;
+  background-color: #d5d5d5;
+  text-align: center;
+
+}
+
+
+.task-form {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 700px;
+  margin: 25px auto;
+  padding: 20px;
+
+}
+
+.task-form input {
+  height: 28px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+.task-form button {
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-form button:hover {
+  background-color: #45a049;
+}
+
+.list-task {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #ffffffcd;
+  overflow: hidden;
+}
+
+.list-task p {
+  margin-bottom: 8px;
+}
+
+.list-task button, .removeBtn, .completeBtn, .returnBtn{
+  padding: 6px 12px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 3px;
+}
+
+.removeBtn{
+  background-color: #f32121;
+}
+
+.removeBtn:hover{
+  background-color: #951212;
+}
+
+.completeBtn{
+  background-color: #45a049;
+}
+
+.completeBtn:hover{
+  background-color: #004b04;
+}
+
+.returnBtn{
+  background-color: rgb(37, 178, 234);
+}
+
+.returnBtn:hover{
+  background-color: rgb(5, 95, 131);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px;
+  flex-direction: row;
+  
+}
+
+.column {
+  flex: 1;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  width: 250px;
+}
+
+.column h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+}
+
