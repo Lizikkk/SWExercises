@@ -1,0 +1,63 @@
+.task-container {
+    width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-input {
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.task-status {
+    font-size: 14px;
+    color: #333;
+}
+
+.save-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; 
+}
+
+.save-button:hover {
+    background-color: #45a049;
+}
+
+.task-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.task-checkbox {
+    margin-right: 10px;
+}
+
+.edit-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; 
+}
+
+.edit-button:hover {
+    background-color: #0b7dda;
+}
