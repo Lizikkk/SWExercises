@@ -1,0 +1,62 @@
+/* Overall form styling */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Styling for form labels */
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Styling for form input fields */
+  form input[type="text"],
+  form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for error messages */
+  form p {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 12px;
+  }
+  
+  /* Styling for submit button */
+  form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Button disabled state */
+  form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
