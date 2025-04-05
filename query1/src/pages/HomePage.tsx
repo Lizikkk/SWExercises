@@ -1,11 +1,15 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const HomePage:React.FC = () => {
+const HomePage: React.FC = () => {
   return (
-    <div>
-      Home
+    <div style={{
+      display: "flex",
+      justifyContent: "center",
+    }}>
+      <Link to="/users" style={{ fontSize: "50px" }}>Users</Link>
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
